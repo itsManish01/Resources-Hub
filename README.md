@@ -1,7 +1,9 @@
 # Resources-Hub
 This is a complete and one to all solution for B.Tech First yrs' of MNNIT Students.<br>
-The main idea is of a Resource website but with many more Functionality.<br><hr>
+The main idea is of a Resource website but with many more Functionality.<br>
 This Project has been developed under Devjam under WeekOfCode Event. 
+<br>Organised By : <a href="https://github.com/CC-MNNIT" >CC Club MNNIT</a>
+<hr>
 <img src="Screenshot 2022-10-14 210857.png">
 <hr>
 Tech Stack used: <br>
@@ -13,4 +15,11 @@ Tech Stack used: <br>
 </ul>
 <hr>
 
+<hr>
+Contributors: 
+<ul>
+  <li>Manish Kumar <a href="https://github.com/itsManish01">itsManish01</a> </li>  
+  <li>Rounak Gouswami </li>  
+  <li>Ankit Sharma </li>  
+</ul>
                 
