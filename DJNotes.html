@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <title>Studdy Stuff | Resources Hub</title>
+  <style>
+
+  </style>
+  <link rel="icon" href="icon.png" type="image/gif">
+  <script type="text/javascript" src="searchscript.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+      <h1>Resources Hub</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="DJNotes.html">STUDY STUFF</a>
+            <a class="dropdown-item" href="DJCampus.html">CAMPUS VISIT</a>
+            <a class="dropdown-item" href="DjCoding.html">CODING</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="DJquery.html">Ask Your Query</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="DJAboutUs.html">About Us</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="DJContact.html">Contact Us</a>
+      </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" id="myInput" placeholder="Search"  aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" onclick="openpage()">Go-></button>
+      </form>
+    </div>
+  </nav>
+
+  <div style="background-image: url(/mainIMG/notes.jpg); width: auto;" class="image-float">
+    <h1 id="study" class="p-3" style="text-align: center; color: whitesmoke;"><u>STUDY STUFF</u></h1>
+    <hr>
+    <table class="table table-striped table-light mx-auto" style="height: 150px; width: 1000px ;">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Subject</th>
+          <th scope="col">Books</th>
+          <th scope="">Tutorial / Lab</th>
+          <th scope="col">Notes</th>
+          <th scope="col">Last year papers</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mathesmatics I </td>
+          <td><a href="/Maths1/DJmaths1Book.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/Maths1/DJmaths1T.html" class="btn btn-warning  " role="button">Click Here</a></td>
+          <td><a href="/Maths1/DJmaths1Notes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/Maths1/DJmaths1PYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Mathesmatics II </td>
+          <td><a href="/Maths2/DJmaths2Book.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/Maths2/DJmaths2T.html" class="btn btn-warning " role="button">Click Here</a></td>
+          <td><a href="/Maths2/DJmaths2Notes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/Maths2/DJmaths2PYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Chemistry </td>
+          <td><a href="/Chem/DJchemBook.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/Chem/DJchemT.html" class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="/Chem/DJchemNotes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/Chem/DJchemPYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Physics I</td>
+          <td><a href="/PHY1/DJphy1Book.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/PHY1/DJphy1T.html" class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="PHY1/DJphy1Notes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="PHY1/DJphy1PYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Physics II</td>
+          <td><a href="/PHY2/DJphy2Book.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/PHY2/DJphy2T.html " class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="/PHY2/DJphy2Notes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/PHY2/DJphy2PYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Engineering Gaphics</td>
+          <td><a href="/EG/DJegBook.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/EG/DJegT.html" class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="/EG/DJegNotes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/EG/DJegPYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Communication skills Workshop</td>
+          <td class="text-center"><b>-</b></td>
+          <td class="text-center"><b>-</b></td>
+          <td><a href="/CSW/DJcswNotes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="CSW/DJcswPYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Computer Science</td>
+          <td><a href="/CS/DJcsBook.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/CS/DJcsT.html" class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="/CS/DJcsNotes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/CS/DJcsPYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+
+        <tr>
+          <th scope="row">9</th>
+          <td>Engineering Mechanics</td>
+          <td><a href="/EM/DJemBook.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/EM/DJemT.html" class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="/EM/DJemNotes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/EM/DJemPYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Workshop</td>
+          <td><a href="/workshop/DJwsBook.html" class="btn btn-info  " role="button">Click Here</td>
+          <td><a href="/workshop/DJwsT.html" class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="/workshop/DJwsNotes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/workshop/DJwsPYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>English Language</td>
+          <td class="text-center"><b>-</b></td>
+          <td><a href="/ENG/DJengT.html" class="btn btn-warning  " role="button">Click Here</td>
+          <td><a href="/ENG/DJengNotes.html" class="btn btn-success  " role="button">Click Here</td>
+          <td><a href="/ENG/DJengPYQ.html" class="btn btn-danger  " role="button">Click Here</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <hr>
+  <footer class="container" style="border-width: 5px ;">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2022 Resouces Hub Inc· <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
