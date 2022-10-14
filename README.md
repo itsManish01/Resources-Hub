@@ -15,10 +15,9 @@ Tech Stack used: <br>
 </ul>
 <hr>
 
-<hr>
 Contributors: 
 <ul>
-  <li>Manish Kumar <a href="https://github.com/itsManish01">itsManish01</a> </li>  
+  <li>Manish Kumar -><a href="https://github.com/itsManish01">itsManish01</a> </li>  
   <li>Rounak Gouswami </li>  
   <li>Ankit Sharma </li>  
 </ul>
