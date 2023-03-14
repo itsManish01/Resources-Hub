@@ -28,6 +28,6 @@ Contributors:
 <ul>
   <li>Manish Kumar -><a href="https://github.com/itsManish01">itsManish01</a> </li>  
   <li>Rounak Gouswami </li>  
-  <li>Ankit Sharma </li>  
+  <li>Ankit Sharma -><a href="https://github.com/ankitsharmaa29">ankitsharmaa29</a> </li>  
 </ul>
                 
